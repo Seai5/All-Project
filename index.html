@@ -1,6 +1,5 @@
-
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sales Scoreboard | Targets vs Achieved</title><style>
-:root{--navy:#102846;--blue:#36ebaf;--line:#d5e3f0;--bg:#f6f9fc}*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--navy);font-family:Montserrat,Arial,sans-serif}.wrap{max-width:1530px;margin:auto;padding:22px 25px}.top{border-top:8px solid var(--blue);padding-top:22px;display:flex;justify-content:space-between;align-items:center;gap:18px}.eyebrow{font-size:13px;font-weight:700;letter-spacing:2px}.top h1{font-size:clamp(27px,4vw,49px);margin:5px 0;font-weight:900;letter-spacing:-1px}.sub{color:var(--blue);font-weight:800}.sub span{color:#93a0b3;margin-left:8px;font-weight:500}.banner{background:var(--blue);color:white;border-radius:10px;padding:16px 25px;text-align:center;white-space:nowrap;box-shadow:0 4px 9px #16345320}.banner strong{display:block;font-size:25px}.banner small{letter-spacing:1px;font-weight:700}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:30px 0 14px}.toolbar h2{font-size:17px;margin:0}.buttons{display:flex;gap:8px;flex-wrap:wrap}button{background:var(--blue);color:white;border:0;border-radius:8px;padding:10px 14px;font-weight:700;cursor:pointer}button.secondary{background:white;border:1px solid var(--line);color:var(--navy)}.hint{font-size:12px;color:#6b7b91}.tablebox{overflow-x:auto;border:1px solid var(--line);border-radius:14px}.score{border-collapse:collapse;width:100%;min-width:850px;text-align:center;table-layout:fixed}.score th{background:var(--navy);color:#fff;padding:13px 5px;border-right:1px solid #36516d;font-size:13px}.score th.team{width:145px;text-align:left;padding-left:20px}.score th.subhead{background:#1d4166;font-size:11px}.score td{padding:13px 5px;border-bottom:1px solid #e6edf5;font-size:17px}.score td:first-child{text-align:left;padding-left:20px;font-weight:800}.score tr.total{background:#f0f5fa}.score tbody tr:hover td{box-shadow:inset 0 0 0 999px #247bc009}.score td.achieved{position:relative}.score td.achieved.green{box-shadow:inset 0 -4px #27a66b}.score td.achieved.amber{box-shadow:inset 0 -4px #d9a62d}.score td.achieved.red{box-shadow:inset 0 -4px #d74b4b}.score tr:last-child td{border-bottom:0}.score td.target{background:#f8fbff;color:#5c7189}.score td.achieved{font-weight:800}.score td.green{background:#dff6e9;color:#116a3d}.score td.amber{background:#fff1c9;color:#885800}.score td.red{background:#fde5e5;color:#b22d2d}.score td.ltd-value{background:#edf4fb;color:#102846;font-weight:900}.score td.neutral{background:#f0f3f7;color:#536579}.legend{display:flex;flex-wrap:wrap;gap:18px;margin:14px 0 26px;font-size:12px;color:#50627a}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}.panels{display:grid;grid-template-columns:1.7fr 1fr;gap:22px;margin-top:15px}.panel{border:1px solid var(--line);border-radius:15px;padding:18px}.panel h3{margin:0 0 15px;font-size:15px}.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.mini div{background:var(--bg);border-radius:11px;padding:14px}.mini label{font-size:12px;color:#6a7890;font-weight:700}.mini strong{display:block;font-size:27px;margin-top:5px}.appcard{background:var(--navy);color:white;border-radius:15px;padding:18px}.appcard h3{margin:0 0 10px;font-size:15px}.appcard .big{font-size:57px;font-weight:900}.progressrow{margin:12px 0;font-size:12px;font-weight:800}.progressrow .line{background:#52677e;border-radius:30px;height:10px;overflow:hidden;margin-top:6px}.progressrow .fill{height:100%;background:#2586d4}.footer{background:var(--blue);color:white;padding:14px 20px;border-radius:9px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:24px;font-size:12px;font-weight:700}dialog{border:0;border-radius:16px;box-shadow:0 20px 80px #10284655;width:min(920px,96vw);max-height:88vh;padding:24px}dialog::backdrop{background:#10284699}dialog h2{margin-top:0}.editgrid{display:grid;grid-template-columns:105px repeat(4,minmax(105px,1fr));gap:8px;align-items:center;min-width:550px}.editgrid label{font-size:11px;font-weight:800}.editgrid input{width:100%;padding:9px;border:1px solid var(--line);border-radius:7px;font-size:15px}.editwrap{overflow-x:auto}.editactions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}.notice{font-size:12px;color:#65758c;line-height:1.6}.error{color:#ad3030}@media(max-width:850px){.top{align-items:flex-start;flex-direction:column}.panels{grid-template-columns:1fr}.wrap{padding:15px}.banner{align-self:flex-start}}@media print{button,.hint,.legend{display:none}.wrap{padding:0}.score{min-width:0}.tablebox{overflow:visible}}
+:root{--navy:#102846;--blue:#247bc0;--line:#d5e3f0;--bg:#f6f9fc}*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--navy);font-family:Montserrat,Arial,sans-serif}.wrap{max-width:1530px;margin:auto;padding:22px 25px}.top{border-top:8px solid var(--blue);padding-top:22px;display:flex;justify-content:space-between;align-items:center;gap:18px}.eyebrow{font-size:13px;font-weight:700;letter-spacing:2px}.top h1{font-size:clamp(27px,4vw,49px);margin:5px 0;font-weight:900;letter-spacing:-1px}.sub{color:var(--blue);font-weight:800}.sub span{color:#93a0b3;margin-left:8px;font-weight:500}.banner{background:var(--blue);color:white;border-radius:10px;padding:16px 25px;text-align:center;white-space:nowrap;box-shadow:0 4px 9px #16345320}.banner strong{display:block;font-size:25px}.banner small{letter-spacing:1px;font-weight:700}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:30px 0 14px}.toolbar h2{font-size:17px;margin:0}.buttons{display:flex;gap:8px;flex-wrap:wrap}button{background:var(--blue);color:white;border:0;border-radius:8px;padding:10px 14px;font-weight:700;cursor:pointer}button.secondary{background:white;border:1px solid var(--line);color:var(--navy)}.hint{font-size:12px;color:#6b7b91}.tablebox{overflow-x:auto;border:1px solid var(--line);border-radius:14px}.score{border-collapse:collapse;width:100%;min-width:850px;text-align:center;table-layout:fixed}.score th{background:var(--navy);color:#fff;padding:13px 5px;border-right:1px solid #36516d;font-size:13px}.score th.team{width:145px;text-align:left;padding-left:20px}.score th.subhead{background:#1d4166;font-size:11px}.score td{padding:13px 5px;border-bottom:1px solid #e6edf5;font-size:17px}.score td:first-child{text-align:left;padding-left:20px;font-weight:800}.score tr.total{background:#f0f5fa}.score tbody tr:hover td{box-shadow:inset 0 0 0 999px #247bc009}.score td.achieved{position:relative}.score td.achieved.green{box-shadow:inset 0 -4px #27a66b}.score td.achieved.amber{box-shadow:inset 0 -4px #d9a62d}.score td.achieved.red{box-shadow:inset 0 -4px #d74b4b}.score tr:last-child td{border-bottom:0}.score td.target{background:#f8fbff;color:#5c7189}.score td.achieved{font-weight:800}.score td.green{background:#dff6e9;color:#116a3d}.score td.amber{background:#fff1c9;color:#885800}.score td.red{background:#fde5e5;color:#b22d2d}.score td.ltd-value{background:#edf4fb;color:#102846;font-weight:900}.score td.neutral{background:#f0f3f7;color:#536579}.legend{display:flex;flex-wrap:wrap;gap:18px;margin:14px 0 26px;font-size:12px;color:#50627a}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}.panels{display:grid;grid-template-columns:1.7fr 1fr;gap:22px;margin-top:15px}.panel{border:1px solid var(--line);border-radius:15px;padding:18px}.panel h3{margin:0 0 15px;font-size:15px}.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.mini div{background:var(--bg);border-radius:11px;padding:14px}.mini label{font-size:12px;color:#6a7890;font-weight:700}.mini strong{display:block;font-size:27px;margin-top:5px}.appcard{background:var(--navy);color:white;border-radius:15px;padding:18px}.appcard h3{margin:0 0 10px;font-size:15px}.appcard .big{font-size:57px;font-weight:900}.progressrow{margin:12px 0;font-size:12px;font-weight:800}.progressrow .line{background:#52677e;border-radius:30px;height:10px;overflow:hidden;margin-top:6px}.progressrow .fill{height:100%;background:#2586d4}.footer{background:var(--blue);color:white;padding:14px 20px;border-radius:9px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:24px;font-size:12px;font-weight:700}dialog{border:0;border-radius:16px;box-shadow:0 20px 80px #10284655;width:min(920px,96vw);max-height:88vh;padding:24px}dialog::backdrop{background:#10284699}dialog h2{margin-top:0}.editgrid{display:grid;grid-template-columns:105px repeat(4,minmax(105px,1fr));gap:8px;align-items:center;min-width:550px}.editgrid label{font-size:11px;font-weight:800}.editgrid input{width:100%;padding:9px;border:1px solid var(--line);border-radius:7px;font-size:15px}.editwrap{overflow-x:auto}.editactions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}.notice{font-size:12px;color:#65758c;line-height:1.6}.error{color:#ad3030}@media(max-width:850px){.top{align-items:flex-start;flex-direction:column}.panels{grid-template-columns:1fr}.wrap{padding:15px}.banner{align-self:flex-start}}@media print{button,.hint,.legend{display:none}.wrap{padding:0}.score{min-width:0}.tablebox{overflow:visible}}
 
 /* Clean, large-screen table: bold values with text-only performance colors */
 .score th{font-size:17px;padding:18px 7px}
@@ -19,18 +18,66 @@
 .score tr.total{background:#f4f7fa}
 .score tbody tr:hover td{box-shadow:none}
 @media(max-width:850px){.score{min-width:1050px}}
-</style></head><body><main class="wrap"><header class="top"><div><div class="eyebrow">Nexus Sales Direct</div><h1>SALES SCOREBOARD</h1><div class="sub">All Project<span>MBZ - One Goa Plots - Ayodhya - Mashobra</span></div></div><div class="banner"><strong>All Project</strong><small>One View</small></div></header>
+
+/* Agent activity report */
+.activitytools{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.metricfilter{display:inline-flex;gap:4px;padding:4px;background:#edf4fb;border:1px solid #d5e3f0;border-radius:12px}.metricfilter button{min-width:92px;background:transparent;color:#102846;border-radius:9px;padding:10px 18px}.metricfilter button.selected{background:#247bc0;color:white;box-shadow:0 2px 5px #10284622}.weeknote{font-size:12px;color:#62758b;font-weight:700}.agenttable{min-width:650px}.agenttable th:first-child{position:sticky;left:0;z-index:2}.agenttable td:first-child{position:sticky;left:0;background:white;z-index:1}.agenttable tbody tr:first-child td:first-child{background:#f4f7fa}
+
+.viewtabs{display:flex;gap:8px;align-items:center;margin:14px 0 10px;flex-wrap:wrap}.viewtabs button{background:#eef5fc;color:#102846;border:1px solid #d5e3f0}.viewtabs button.selected{background:#102846;color:#fff}.agentview[hidden],#scoreview[hidden],#aprview[hidden],#hourlyview[hidden]{display:none!important}.agentintro{color:#62758b;font-size:13px;margin:8px 0 18px}.agenttable{width:100%;border-collapse:collapse;min-width:750px;text-align:center}.agenttable th{background:#102846;color:white;padding:15px 12px;font-size:16px}.agenttable td{padding:15px 12px;border-bottom:1px solid #e6edf5;font-size:19px;font-weight:800}.agenttable td:first-child{text-align:left}.agenttable .weekgroup{background:#1d4166}.agenttable .inactive{color:#bf343e}.agenttable .active{color:#13814a}.countbtn{background:transparent;color:inherit;font:inherit;padding:5px 16px;border-radius:8px;border:1px solid #dce6f1;min-width:55px}.countbtn:hover{background:#eef5fc}.agentdialog{width:min(1100px,96vw)}.agentdialog h2{font-size:23px}.agentlists{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.agentlist{border:1px solid #d5e3f0;border-radius:12px;overflow:hidden}.agentlist h3{margin:0;padding:14px 16px;background:#f3f7fb}.agentlist h3.redtitle{color:#b72b38}.agentlist h3.greentitle{color:#16804b}.agentitem{display:grid;grid-template-columns:1fr auto;gap:8px;border-top:1px solid #e7eef5;padding:12px 15px;font-size:13px}.agentitem strong{display:block;font-size:14px}.agentitem small{color:#6b7b91}.agentitem .counts{font-weight:800;text-align:right;white-space:nowrap}.agentitem .counts span{display:block;color:#64748b;font-size:11px}.agentempty{padding:15px;color:#728196}.dialoghead{display:flex;justify-content:space-between;align-items:center;gap:10px}.dialoghead button{flex-shrink:0}@media(max-width:720px){.agentlists{grid-template-columns:1fr}.agenttable th{font-size:13px}.agenttable td{font-size:16px}}
+
+/* APR reporting */
+.aprtools{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin:18px 0}.aprtools label{font-size:12px;font-weight:800;display:grid;gap:5px}.aprtools select,.aprtools input{padding:10px;border:1px solid var(--line);border-radius:9px;background:white;color:var(--navy);max-width:300px}.aprsummary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}.aprcard{background:#f3f7fc;border:1px solid #dbe8f3;padding:18px;border-radius:14px}.aprcard small{font-size:12px;color:#61748c;font-weight:800}.aprcard strong{display:block;font-size:30px;margin-top:6px}.aprtable{border-collapse:collapse;width:100%;min-width:850px}.aprtable th{background:#102846;color:white;text-align:left;padding:14px 12px;white-space:nowrap}.aprtable td{padding:13px 12px;border-bottom:1px solid #e4ecf4;font-size:14px}.aprtable tbody tr:nth-child(even){background:#f8fbfe}.aprtable .num{text-align:right;font-weight:800}.aprtag{font-size:12px;font-weight:700;color:#5b6d84}.aprstatus{font-size:12px;color:#63758a;margin:8px 0 16px}.aprurl{flex:1;min-width:230px}.aprurl input{width:100%;max-width:none}.aprsectiontitle{margin:24px 0 10px}.aprbadge{display:inline-block;background:#e8f3ff;color:#165c97;padding:5px 9px;border-radius:7px;font-weight:800}.apr-total td{background:#e8f3ff!important;font-weight:900!important;border-top:2px solid #2278bf}.aprwarn{color:#ad3030;font-weight:700}.aprnote{font-size:12px;color:#61748c;line-height:1.5}@media(max-width:650px){.aprsummary{grid-template-columns:1fr}.aprtools>*{width:100%}}
+
+/* Hourly report */
+.hourlytools{display:flex;gap:16px;align-items:end;flex-wrap:wrap;margin:14px 0 16px}.hourlytools label{font-size:12px;font-weight:800;display:grid;gap:6px}.hourlytools select{border:1px solid var(--line);border-radius:9px;padding:10px 14px;background:white;min-width:190px}.hourlytable{border-collapse:collapse;width:100%;min-width:960px;text-align:center}.hourlytable th{background:#102846;color:white;padding:12px 8px;font-size:14px;border-right:1px solid #39516d}.hourlytable th.group{background:#1e446b}.hourlytable td{padding:11px 8px;font-size:17px;border-bottom:1px solid #e0e9f2;border-right:1px solid #e0e9f2;font-weight:700}.hourlytable td:first-child{text-align:left;white-space:nowrap;font-size:14px}.hourlytable td.alloc{color:#137e5a;background:#effaf5}.hourlytable tr.total td{font-size:19px;font-weight:900;background:#eaf2fb}.hourlytable tbody tr:nth-child(even):not(.total) td:not(.alloc){background:#f7faff}.hourlymeta{font-size:13px;color:#5c7189;margin:0 0 12px}.hourlyerror{color:#ba3040;font-weight:700}
+
+/* Insights and hourly heatmap */
+#insightsview[hidden]{display:none!important}.insightbar{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin:20px 0}.insightbar label{font-weight:800;font-size:13px;display:grid;gap:6px}.insightbar select{padding:11px 15px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--navy)}.insightgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.insightpanel{border:1px solid var(--line);border-radius:17px;padding:20px;min-width:0}.insightpanel h2{margin:0 0 14px;font-size:21px}.insightchart{width:100%;height:340px;display:block}.chartlegend{display:flex;gap:15px;flex-wrap:wrap;justify-content:center;font-weight:800;margin-top:8px}.chartlegend span{display:flex;align-items:center;gap:6px}.chartlegend i{width:12px;height:12px;border-radius:50%;display:inline-block}.insighttable{width:100%;border-collapse:collapse;min-width:960px}.insighttable th{background:#102846;color:white;text-align:left;padding:15px 12px;white-space:nowrap}.insighttable td{padding:14px 12px;border-bottom:1px solid #dce7f1;font-weight:700}.insighttable tbody tr:nth-child(even){background:#f5f9fd}.insighttable td:not(:first-child){text-align:right}.insighttable th:not(:first-child){text-align:right}.insighttable .total{background:#e7f1fd;font-weight:900}.insightmetric{font-weight:900;color:#1464a2}.hourlytable td.heat-zero{background:#f1f5f9!important;color:#728198}.hourlytable td.heat-low{background:#ffe0e0!important;color:#ad2835}.hourlytable td.heat-mid{background:#fff0bc!important;color:#855500}.hourlytable td.heat-high{background:#b9efd2!important;color:#09613c}.hourlytable td.heat-top{background:#65d6a2!important;color:#064a30}@media(max-width:950px){.insightgrid{grid-template-columns:1fr}}
+
+/* Unified bright visual system */
+:root{--navy:#17345a;--blue:#2879ec;--line:#dce7f6;--bg:#f4f8ff;--mint:#14b88a;--ink:#193353}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Arial,sans-serif;background:linear-gradient(140deg,#f0f7ff 0%,#fff 46%,#f0fffb 100%);color:var(--ink);font-size:15px}
+.wrap{max-width:1700px;padding:24px 30px 45px}.top{border-top:0;background:linear-gradient(105deg,#e5f1ff,#f2fcff 55%,#e6fff5);border:1px solid #d9e9fa;border-radius:24px;padding:25px 30px;box-shadow:0 12px 34px #3168a50d}.top h1{color:#123765;letter-spacing:-1.5px}.eyebrow{color:#3575bd}.banner{background:linear-gradient(130deg,#2578f1,#00b6bb);box-shadow:0 10px 25px #1974dc2c}.toolbar{margin:20px 0 12px}.viewtabs{background:white;border:1px solid #dce7f6;padding:7px;border-radius:17px;gap:5px;box-shadow:0 5px 22px #244b7a0a}.viewtabs button{border:0;background:transparent;border-radius:11px;color:#547092;font-size:14px;font-weight:800;padding:13px 17px}.viewtabs button.selected{background:linear-gradient(115deg,#2879ec,#18b7b2);color:white;box-shadow:0 5px 14px #2879ec36}button{transition:filter .18s,transform .18s}button:hover{filter:brightness(1.06)}button:active{transform:scale(.98)}button:focus-visible,th.sortable:focus-visible{outline:3px solid #ffbd45;outline-offset:2px}
+.tablebox,.insightpanel,.panel,.agentlist{border:1px solid #dce7f6;border-radius:18px;box-shadow:0 9px 30px #2a61950d;background:white;overflow:auto}.insightpanel{padding:22px}.insightpanel h2,.aprsectiontitle,.hourlytools h2{font-size:21px!important;font-weight:850;color:#153b68}.score,.agenttable,.aprtable,.hourlytable,.insighttable{font-family:inherit;font-variant-numeric:tabular-nums}.score th,.agenttable th,.aprtable th,.hourlytable th,.insighttable th{background:#20538d;color:white;font-size:14px;font-weight:800;letter-spacing:.01em;padding:16px 12px}.score th.subhead,.agenttable .weekgroup,.hourlytable th.group{background:#2c75b9}.score td,.agenttable td,.aprtable td,.hourlytable td,.insighttable td{font-size:16px;font-weight:650;padding:15px 12px;border-color:#e7eff9}.score td.target,.score td.achieved,.score td.ltd-value{font-size:23px;font-weight:850}.score td:first-child,.agenttable td:first-child{font-size:17px}.score tbody tr:nth-child(even):not(.total),.agenttable tbody tr:nth-child(even),.aprtable tbody tr:nth-child(even),.insighttable tbody tr:nth-child(even){background:#f5f9ff}.score tbody tr:hover,.agenttable tbody tr:hover,.aprtable tbody tr:hover,.hourlytable tbody tr:hover,.insighttable tbody tr:hover{background:#eaf5ff!important}.score tr.total,.apr-total td,.insighttable tr.total{background:#e2f2ff!important}.agenttable td:first-child{background:inherit}.agenttable tbody tr:first-child td:first-child{background:#e2f2ff}.agenttable th:first-child{background:#20538d}.countbtn{background:white;border:1px solid #cbdff5;color:inherit;box-shadow:0 2px 4px #285d8910}.agenttable td.inactive{color:#d73b59}.agenttable td.active{color:#098e69}.insightmetric{color:#1c72d4}.footer{background:linear-gradient(100deg,#2879ec,#15afa6);border-radius:14px;font-size:13px}.agentintro,.aprnote,.hourlynote,.hint{color:#5b7190}.insightbar,.aprtools,.hourlytools,.activitytools{background:#fff;border:1px solid #e1eaf7;border-radius:16px;padding:15px}.insightbar select,.aprtools select,.hourlytools select{font:inherit;font-weight:650;border:1px solid #cbdff5;background:#f9fcff}.chartlegend{font-size:13px}.insightchart{height:315px}
+/* Ten-percentage-point heatmap steps: red <50%, amber 50–69%, green >=70%. */
+.heat10{font-weight:850!important;border-radius:0;transition:background-color .2s}.heat10[data-band="0"]{background:#fff0f2!important;color:#bf3449}.heat10[data-band="1"]{background:#ffe7eb!important;color:#bf3449}.heat10[data-band="2"]{background:#ffdde3!important;color:#b52b42}.heat10[data-band="3"]{background:#ffd2dc!important;color:#a92b40}.heat10[data-band="4"]{background:#ffc5d2!important;color:#a0253b}.heat10[data-band="5"]{background:#fff3cd!important;color:#92600c}.heat10[data-band="6"]{background:#ffe8a7!important;color:#83560c}.heat10[data-band="7"]{background:#dff8e9!important;color:#12744c}.heat10[data-band="8"]{background:#c4f3da!important;color:#0e7048}.heat10[data-band="9"]{background:#a3eccb!important;color:#0a6844}.heat10[data-band="10"]{background:#7ce3b4!important;color:#075c3d}.heat-na{background:#f1f5fa!important;color:#78899d!important}.heat-legend{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:13px 0;font-size:12px;font-weight:750;color:#60738f}.heat-legend b{display:inline-block;width:13px;height:13px;border-radius:4px;margin-right:5px;vertical-align:middle}.heat-legend .red{background:#ffc5d2}.heat-legend .amber{background:#ffe8a7}.heat-legend .green{background:#a3eccb}
+th.sortable{cursor:pointer;user-select:none;white-space:nowrap}th.sortable:hover{background:#367fc2!important}th.sortable::after{content:' ↕';opacity:.65;font-size:12px}th.sortable[aria-sort="ascending"]::after{content:' ↑';opacity:1}th.sortable[aria-sort="descending"]::after{content:' ↓';opacity:1}
+@media(max-width:850px){.wrap{padding:12px}.top{padding:18px}.viewtabs{overflow-x:auto;flex-wrap:nowrap}.viewtabs button{white-space:nowrap}.insightgrid{grid-template-columns:1fr}.score{min-width:1080px}}
+
+/* BLUE ZONE STUDIO — unified high-fidelity visual refresh */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap');
+:root{--navy:#112a50;--ink:#172e50;--blue:#3868f6;--azure:#0ea5e9;--teal:#0bbaa2;--line:#dce7f4;--bg:#f3f7ff;--violet:#8067e8;--shadow:0 15px 45px rgba(38,74,133,.095)}
+html{scroll-behavior:smooth}body{background:radial-gradient(ellipse 48% 26% at 15% 0%,#d7eaff 0%,transparent 85%),radial-gradient(ellipse 38% 38% at 90% 12%,#e1fff5 0%,transparent 85%),linear-gradient(180deg,#f5f8ff,#f9fcff 56%,#eff8fb);color:var(--ink);font-family:'Plus Jakarta Sans','DM Sans',Arial,sans-serif;letter-spacing:-.015em;min-height:100vh}
+.wrap{max-width:1840px;margin:auto;padding:28px clamp(16px,2.7vw,52px) 48px}.top{position:relative;overflow:hidden;align-items:center;min-height:170px;border:1px solid #cddff6;border-radius:27px;padding:30px 36px;background:linear-gradient(111deg,#fff 0%,#edf6ff 60%,#e4fff7 100%);box-shadow:0 16px 50px #3273b71b}.top:before{content:'';position:absolute;right:16%;top:-130px;width:400px;height:400px;border:1px solid #ffffffa0;border-radius:50%;box-shadow:0 0 0 43px #ffffff38,0 0 0 91px #ffffff2b;pointer-events:none}.top>*{z-index:1;position:relative}.eyebrow{font-size:12px!important;letter-spacing:3.1px;color:#4377a9;font-weight:800}.top h1{font-size:clamp(31px,3.6vw,60px);font-weight:800;line-height:1.15;letter-spacing:-2.5px;margin:10px 0 8px;color:#112d58}.sub{font-size:15px;letter-spacing:.015em}.sub span{font-size:13px}.banner{border:1px solid #ffffff80;background:linear-gradient(128deg,#2578f5,#0ac1ae);border-radius:17px;box-shadow:0 12px 26px #2576da30;padding:20px 31px;transform:translateZ(0)}.banner strong{font-size:27px;letter-spacing:1.5px}.banner small{font-size:10px}
+.toolbar{margin:21px 0 7px;min-height:40px}.buttons button{font-family:inherit;font-size:13px;letter-spacing:.02em;border-radius:12px;padding:12px 17px;box-shadow:0 5px 12px #2e68b91c}.buttons button:first-child{background:linear-gradient(110deg,#1cb9aa,#0f94b7)}button{font-family:inherit;font-weight:800;transition:transform .18s,box-shadow .18s,filter .18s}button:hover{transform:translateY(-1px);filter:brightness(1.03)}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #fbbf24!important;outline-offset:2px}
+.viewtabs{display:flex;gap:6px;flex-wrap:wrap;background:#ffffffd9;backdrop-filter:blur(12px);border:1px solid #d8e8f7;border-radius:18px;padding:8px;box-shadow:var(--shadow);margin:20px 0 22px}.viewtabs button{background:transparent;border:0;color:#506987;border-radius:12px;padding:14px 18px;font-size:13px;white-space:nowrap;letter-spacing:0;min-height:46px}.viewtabs button.selected{background:linear-gradient(110deg,#346df6,#12aed0);box-shadow:0 7px 17px #3776ef38;color:#fff}.viewtabs button:hover:not(.selected){background:#edf5ff}
+.tablebox,.insightpanel,.agentlist,.panel{background:#fff;border:1px solid #dbe7f4;border-radius:20px;box-shadow:0 13px 34px #204a820d;overflow:auto}.score,.agenttable,.aprtable,.hourlytable,.insighttable{font-family:'Plus Jakarta Sans','DM Sans',sans-serif;font-variant-numeric:tabular-nums;border-collapse:separate;border-spacing:0;width:100%;line-height:1.32}.score th,.agenttable th,.aprtable th,.hourlytable th,.insighttable th{background:#163862!important;color:white;font-size:13px!important;font-weight:800!important;padding:18px 13px!important;border-right:1px solid #ffffff1c;letter-spacing:.015em;white-space:nowrap}.score th.subhead,.agenttable th.weekgroup,.hourlytable th.group{background:#225991!important}.score td,.agenttable td,.aprtable td,.hourlytable td,.insighttable td{background:transparent;border-bottom:1px solid #e6eef7;padding:16px 13px!important;color:#263d5d;font-size:14px!important;font-weight:650;vertical-align:middle;transition:background .2s}.score td.target,.score td.achieved,.score td.ltd-value{font-size:23px!important;font-weight:800!important}.score td:first-child,.agenttable td:first-child{font-size:16px!important;font-weight:800!important}.score tr.total td,.apr-total td{background:#eaf3ff!important;font-weight:800}.score td.achieved.green,.score td.green{color:#06865f!important}.score td.achieved.red,.score td.red{color:#d04059!important}.score td.achieved.amber,.score td.amber{color:#af771b!important}.score td.ltd-value{color:#174676!important}.score tbody tr:nth-child(even):not(.total),.agenttable tbody tr:nth-child(even),.aprtable tbody tr:nth-child(even),.hourlytable tbody tr:nth-child(even),.insighttable tbody tr:nth-child(even){background:#f7faff}.score tbody tr:hover td,.aprtable tbody tr:hover td,.insighttable tbody tr:hover td,.agenttable tbody tr:hover td{background:#ebf5ff!important}.agenttable td:first-child{background:inherit!important}.agenttable td.inactive{color:#d53850}.agenttable td.active{color:#087a60}.countbtn{font-size:16px!important;border:1px solid #dce8f5;border-radius:10px;background:white!important;min-width:60px;box-shadow:0 2px 8px #2d61800a}
+.agentintro,.aprnote,.hourlynote,.hint,.notice{font-size:12px;color:#71839b;line-height:1.6}.activitytools,.aprtools,.hourlytools,.insightbar{background:#fff;border:1px solid #dce8f6;padding:18px 20px;border-radius:18px;box-shadow:0 7px 19px #274b8009;margin-bottom:18px}.metricfilter{background:#edf5ff;border:1px solid #d7e8fa}.metricfilter button.selected{background:linear-gradient(110deg,#326bf1,#17b5d0)!important}.aprtools label,.hourlytools label{font-size:12px;letter-spacing:.045em;color:#587294}.aprtools select,.aprtools input,.hourlytools select,.insightbar select{background:#f9fbff;border:1px solid #cedff3;border-radius:12px;padding:12px 14px;font-family:inherit;font-size:14px;color:#183858}.aprsectiontitle,.hourlytools h2,.insightpanel h2{color:#143d6c;font-size:20px;font-weight:800;letter-spacing:-.04em}.insightpanel{padding:23px;border-radius:21px}.insightgrid{gap:19px}.insightchart{min-height:320px}.chartlegend{display:flex;justify-content:center;gap:15px;font-size:13px;font-weight:700;color:#536f8e}.footer{margin-top:23px;background:linear-gradient(106deg,#2059a0,#276eeb 60%,#11aeb4);border-radius:15px;box-shadow:0 8px 22px #1f7ec32b;font-size:12px;letter-spacing:.015em;padding:17px 22px}.hourlymeta{font-weight:650;color:#6282a5}.hourlytable td.alloc{background:#eafaf3!important;color:#067c60!important}.hourlytable tr.total td{background:#dfeeff!important;color:#123d69!important;font-weight:800}.hourlytable td{font-size:15px!important}.heat10{font-weight:800!important;transition:background-color .25s,color .25s}.heat-legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;font-weight:750;color:#6480a0;padding:4px 0 12px}.heat-legend b{border-radius:5px}.heat-legend .red{background:#ffccd7}.heat-legend .amber{background:#ffebad}.heat-legend .green{background:#b3f4d4}th.sortable:hover{background:#285e9f!important}th.sortable[aria-sort=ascending],th.sortable[aria-sort=descending]{background:#1160a6!important}
+/* Retain the existing 10-point heat map, but make its appearance harmonious */
+.heat10[data-band="0"]{background:#fff1f3!important;color:#cb4158!important}.heat10[data-band="1"]{background:#ffe9ec!important;color:#bf3c55!important}.heat10[data-band="2"]{background:#ffdde4!important;color:#b6314c!important}.heat10[data-band="3"]{background:#ffd2da!important;color:#ad2e47!important}.heat10[data-band="4"]{background:#ffc5d1!important;color:#9e2843!important}.heat10[data-band="5"]{background:#fff3d5!important;color:#946314!important}.heat10[data-band="6"]{background:#ffe8b0!important;color:#85590e!important}.heat10[data-band="7"]{background:#e3f9ec!important;color:#18754f!important}.heat10[data-band="8"]{background:#ccf4e0!important;color:#0d764e!important}.heat10[data-band="9"]{background:#adedd0!important;color:#0a6849!important}.heat10[data-band="10"]{background:#8fe6bc!important;color:#07583c!important}.heat-na{background:#eef2f7!important;color:#7a8da4!important}
+dialog{border:1px solid #dce7f4;border-radius:23px;box-shadow:0 26px 90px #102a5052;font-family:inherit}dialog h2{font-size:24px;color:#123d69}.editgrid input{font-family:inherit;padding:12px;border-radius:10px}.countbtn,.agentdialog button{font-family:inherit}
+@media(max-width:1080px){.top{padding:22px}.viewtabs{flex-wrap:nowrap;overflow-x:auto}.viewtabs button{flex-shrink:0}.insightgrid{grid-template-columns:1fr!important}}@media(max-width:720px){.wrap{padding:12px}.top{flex-direction:column;align-items:flex-start;padding:20px}.top h1{font-size:34px;letter-spacing:-1px}.banner{width:100%}.tablebox{border-radius:14px}.score{min-width:1080px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important;scroll-behavior:auto!important}}
+</style></head><body><main class="wrap"><header class="top"><div><div class="eyebrow">Nexus Direct Sales</div><h1>SALES SCOREBOARD</h1><div class="sub">All Projects<span>MBZ / One Goa Plots / Ayodhya / Mashobra</span></div></div><div class="banner"><strong>All Projects</strong></div></header>
 <section class="toolbar"><div></div><div class="buttons"><button id="edit">✎ Edit Targets</button><button class="secondary" id="export">↓ Export CSV</button></div></section>
-<div class="tablebox"><table class="score"><thead><tr><th class="team" rowspan="2">TEAM</th><th colspan="2">FTD VDs</th><th colspan="2">FTD APPS</th><th colspan="2">WTD VDs</th><th colspan="2">WTD APPS</th><th rowspan="2">LTD VDs</th><th rowspan="2">LTD APPS</th></tr><tr id="subheads"></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="viewtabs"><button id="scoretab" class="selected" type="button">Team Scoreboard</button><button id="agenttab" type="button">Agent Active / Inactive</button><button id="aprtab" type="button">APR Calling Report</button><button id="hourlytab" type="button">Hourly Performance</button><button id="insightstab" type="button">Insights</button></div><section id="scoreview"><div class="tablebox"><table class="score"><thead><tr><th class="team" rowspan="2">TEAM</th><th colspan="2">FTD VDs</th><th colspan="2">FTD APPS</th><th colspan="2">WTD VDs</th><th colspan="2">WTD APPS</th><th rowspan="2">LTD VDs</th><th rowspan="2">LTD APPS</th></tr><tr id="subheads"></tr></thead><tbody id="rows"></tbody></table></div></section><section id="agentview" class="agentview" hidden><p class="agentintro">Click any number to see the agent names and their weekly VD / App counts. Inactive = 0 for the selected metric; Active = 1 or more. All registered agents are included.</p><div class="activitytools"><div class="metricfilter" role="group" aria-label="Agent activity metric"><button type="button" id="filtervd" class="selected" aria-pressed="true">VDs</button><button type="button" id="filterapp" aria-pressed="false">Apps</button></div><span class="weeknote" id="weeknote">Showing available weeks</span></div><div class="tablebox"><table class="agenttable"><thead id="agenthead"></thead><tbody id="agentrows"></tbody></table></div></section>
 
 
-<footer class="footer"><span id="footstats">Waiting for sheet data…</span><span id="status">● CONNECTING…</span></footer></main>
+<section id="aprview" hidden>
+<div class="aprtools"><label>TEAM LEADER<select id="aprteam"><option value="ALL">Overall · All teams</option></select></label><label>WEEK<select id="aprweek"><option value="ALL">All weeks</option></select></label></div>
+<h3 class="aprsectiontitle">Agent calling performance</h3><div class="tablebox"><table class="aprtable"><thead><tr><th>Agent</th><th>Team Leader</th><th>Week</th><th style="text-align:right">Total Calls</th><th style="text-align:right">Connected</th><th style="text-align:right">Talk Time</th><th style="text-align:right">VDs</th><th style="text-align:right">Apps</th></tr></thead><tbody id="aprrows"></tbody></table></div>
+<h3 class="aprsectiontitle">APR CSV source</h3><div class="aprtools"><label>Upload APR CSV<input id="aprupload" type="file" accept=".csv,text/csv"></label><label class="aprurl">APR SOURCE URL<input id="aprsource" type="url" placeholder="Paste public CSV or Apps Script /exec URL"></label><button id="aprsave" type="button">Save APR Source</button></div>
+<p class="aprstatus" id="aprstatus">No APR source connected. Paste your URL or upload a CSV.</p>
+<p class="aprnote">Google Drive files must be published or served by an authorized Apps Script endpoint that permits browser access. Private Drive files cannot be fetched directly from a standalone HTML page. CSV upload is a manual local preview; a connected URL is checked automatically every 60 seconds. For daily data, use a Week column (Week 1, Week 2, etc.) or a “Weeks Date” field with a week label. Missing week labels are inferred using Week 1 starting 6 October 2026 (Tuesday), with each subsequent week spanning seven days.</p>
+</section>
+<section id="hourlyview" hidden><div class="hourlytools"><label>TEAM LEADER<select id="hourlyteam"><option value="ALL">Overall · All teams</option><option>SALMAN</option><option>SOEF</option><option>DEEPA</option><option>AAMIR</option><option>SOHAIL</option></select></label><div><h2 style="margin:0 0 6px">Hourly allocation &amp; VC Done</h2><p class="hourlymeta" id="hourlydates">Waiting for live sales data…</p></div></div><div class="heat-legend"><span><b class="red"></b>Below 50%</span><span><b class="amber"></b>50–69%</span><span><b class="green"></b>70–100%</span><span>10% shade increments · blank where no denominator</span></div><div class="tablebox"><table class="hourlytable"><thead><tr><th rowspan="2">TIME SLOT</th><th colspan="2" class="group">TODAY</th><th colspan="2" class="group">YESTERDAY</th><th colspan="2" class="group">SAME DAY PREVIOUS WEEK</th><th colspan="2" class="group">LTD</th></tr><tr><th>Allocation</th><th>VC Done</th><th>Allocation</th><th>VC Done</th><th>Allocation</th><th>VC Done</th><th>Allocation</th><th>VC Done</th></tr></thead><tbody id="hourlyrows"></tbody></table></div><p class="hourlymeta" id="hourlynote">Counts are based on the Date and Time fields in the connected sales sheet. Rows without a valid time are excluded from hourly buckets.</p></section><section id="insightsview" hidden><div class="insightbar"><label>TEAM LEADER<select id="insightteam"><option value="ALL">Overall · All teams</option></select></label><label>WEEK RANGE<select id="insightweeks"><option value="ALL">All available weeks</option></select></label><label>CALL BASIS<select id="insightbasis"><option value="calls">Total Calls</option><option value="connected">Connected Calls</option></select></label></div><div class="insightgrid"><div class="insightpanel"><h2>Team VD Performance</h2><svg class="insightchart" id="vdchart" role="img" aria-label="Weekly team VD line graph" viewBox="0 0 650 340"></svg><div class="chartlegend" id="vdlegend"></div></div><div class="insightpanel"><h2>Team App Performance</h2><svg class="insightchart" id="appchart" role="img" aria-label="Weekly team App line graph" viewBox="0 0 650 340"></svg><div class="chartlegend" id="applegend"></div></div></div><div class="insightpanel" style="margin-top:18px"><h2>Agent Calling Efficiency · Calls per VD &amp; App</h2><div class="heat-legend"><span><b class="red"></b>Below 50%</span><span><b class="amber"></b>50–69%</span><span><b class="green"></b>70–100%</span><span>10% shade increments · blank where no denominator</span></div><div class="tablebox"><table class="insighttable"><thead><tr><th>Agent</th><th>Team Leader</th><th>Calls</th><th>Connected</th><th>VDs</th><th>Apps</th><th id="pervdhead">Calls / VD</th><th id="perapphead">Calls / App</th></tr></thead><tbody id="insightrows"></tbody></table></div></div></section><footer class="footer"><span id="footstats">Waiting for sheet data…</span><span id="status">● CONNECTING…</span></footer></main>
 <dialog id="modal"><h2>Edit Team Targets</h2><p class="notice">Enter the target for each team and metric. TOTAL targets are calculated by summing team targets. Only FTD and WTD targets are editable. LTD displays actual achievements only. Targets are saved in this browser.</p><div class="editwrap"><div class="editgrid" id="editgrid"></div></div><div class="editactions"><button class="secondary" id="cancel">Cancel</button><button id="save">Save Targets</button></div></dialog>
+<dialog id="agentmodal" class="agentdialog"><div class="dialoghead"><h2 id="agentmodaltitle">Agent activity</h2><button class="secondary" id="closeagents" type="button">✕ Close</button></div><p class="notice" id="agentmodalnote"></p><div class="agentlists"><div class="agentlist"><h3 class="redtitle" id="inactivehead">Inactive</h3><div id="inactivelist"></div></div><div class="agentlist"><h3 class="greentitle" id="activehead">Active</h3><div id="activelist"></div></div></div></dialog>
 <script>
 'use strict';
 const APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbwHRiO7sDxCdrWBlsm8U5a2fL1AOKQfKfJKsvFuYKbVNMYDehMsFczK0mzu_f9gXaCMOw/exec';
 const KEYS=['ftdVd','ftdApp','wtdVd','wtdApp','ltdVd','ltdApp'];const TARGET_KEYS=KEYS.slice(0,4);const LABELS=['FTD VDs','FTD APPS','WTD VDs','WTD APPS'];const STORE='blueZoneTargets_v1';
 let stats=Object.create(null),totals=empty(),targets=loadTargets(),busy=false;
+let agentRecords=[];
 function empty(){return Object.fromEntries(KEYS.map(k=>[k,0]));}
 function loadTargets(){try{const o=JSON.parse(localStorage.getItem(STORE)||'{}');return o&&typeof o==='object'?o:{}}catch{return {}}}
 function clean(s){return String(s??'').trim().toUpperCase().split(/\s+/)[0]}
@@ -50,18 +97,18 @@ function dateKey(d){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolka
 // Additional records provided for new team leaders. No customer contact details stored.
 // Entries are included only when an equivalent sheet record is not found.
 const EXTRA_RECORDS=[
- {week:'Week 1',date:'6-Oct-2026',time:'10:31:26',agent:'Ravi Chini Rathod',team:'DEEPA',status:'VC Done',rating:'Cold'},
- {week:'Week 1',date:'6-Oct-2026',time:'10:32:02',agent:'Pooja Dhandre',team:'DEEPA',status:'VC Done',rating:'Cold'},
- {week:'Week 1',date:'9-Oct-2026',time:'12:24:52',agent:'Piyush Joshi',team:'AAMIR',status:'VC Done',rating:'Cold'},
- {week:'Week 1',date:'9-Oct-2026',time:'16:37:01',agent:'Piyush Joshi',team:'AAMIR',status:'VC Rescheduled',rating:''},
- {week:'Week 1',date:'8-Oct-2026',time:'19:20:30',agent:'Pornima Rajesh Kamble',team:'SOHAIL',status:'VC Done',rating:'Cold'},
+ {week:'Week 1',date:'6-Oct-2026',time:'10:31:26',id:'NE63',agent:'Ravi Chini Rathod',team:'DEEPA',status:'VC Done',rating:'Cold'},
+ {week:'Week 1',date:'6-Oct-2026',time:'10:32:02',id:'NE22',agent:'Pooja Dhandre',team:'DEEPA',status:'VC Done',rating:'Cold'},
+ {week:'Week 1',date:'9-Oct-2026',time:'12:24:52',id:'NE80',agent:'Piyush Joshi',team:'AAMIR',status:'VC Done',rating:'Cold'},
+ {week:'Week 1',date:'9-Oct-2026',time:'16:37:01',id:'NE80',agent:'Piyush Joshi',team:'AAMIR',status:'VC Rescheduled',rating:''},
+ {week:'Week 1',date:'8-Oct-2026',time:'19:20:30',id:'NE92',agent:'Pornima Rajesh Kamble',team:'SOHAIL',status:'VC Done',rating:'Cold'},
  {week:'Week 1',date:'10-Oct-2026',time:'10:56:09',agent:'',team:'SOHAIL',status:'VC Rescheduled',rating:''},
- {week:'Week 1',date:'10-Oct-2026',time:'10:55:55',agent:'Uzaifa Mohd Umar Khan',team:'SOHAIL',status:'Waiting for link',rating:''}
+ {week:'Week 1',date:'10-Oct-2026',time:'10:55:55',id:'NE139',agent:'Uzaifa Mohd Umar Khan',team:'SOHAIL',status:'Waiting for link',rating:''}
 ];
 function processRows(rows){
  if(!Array.isArray(rows)||!rows.length)throw Error('No sheet rows');
  const h=rows[0].map(x=>String(x??'').trim().toLowerCase());
- const ix={date:h.indexOf('date'),week:h.findIndex(x=>x.includes('week')),team:h.indexOf('team leader'),status:h.indexOf('status'),rating:h.indexOf('rating'),agent:h.findIndex(x=>['agent','agent name','associate name','presales agent'].includes(x)),time:h.findIndex(x=>x==='time'||x==='vc time')};
+ const ix={date:h.indexOf('date'),week:h.findIndex(x=>x.includes('week')),team:h.indexOf('team leader'),status:h.indexOf('status'),rating:h.indexOf('rating'),agent:h.findIndex(x=>['agent','agent name','associate name','presales agent'].includes(x)),time:h.findIndex(x=>['time','vc time','time slot','allocation time','created time','timestamp','vc done time'].includes(x)),id:h.findIndex(x=>['emp id','employee id','agent id','emp code','employee code','agent code','code'].includes(x))};
  if([ix.date,ix.week,ix.team,ix.status,ix.rating].some(x=>x<0))throw Error('Missing sheet columns: Date, Week, Team Leader, Status, Rating');
  const next=Object.create(null),sum=empty(),today=indiaToday();
  function apply(record){
@@ -74,8 +121,9 @@ function processRows(rows){
   if(vd){st.ltdVd++;sum.ltdVd++;if(isToday){st.ftdVd++;sum.ftdVd++}if(wtd){st.wtdVd++;sum.wtdVd++}}
   if(app){st.ltdApp++;sum.ltdApp++;if(isToday){st.ftdApp++;sum.ftdApp++}if(wtd){st.wtdApp++;sum.wtdApp++}}
  }
- const sheetRecords=rows.slice(1).filter(Array.isArray).map(r=>({date:r[ix.date],week:r[ix.week],team:r[ix.team],status:r[ix.status],rating:r[ix.rating],agent:ix.agent>=0?r[ix.agent]:'',time:ix.time>=0?r[ix.time]:''}));
+ const sheetRecords=rows.slice(1).filter(Array.isArray).map(r=>({date:r[ix.date],week:r[ix.week],team:r[ix.team],status:r[ix.status],rating:r[ix.rating],agent:ix.agent>=0?r[ix.agent]:'',id:ix.id>=0?r[ix.id]:'',time:ix.time>=0?r[ix.time]:''}));
  sheetRecords.forEach(apply);
+ const mergedRecords=sheetRecords.slice();
  // Prefer live sheet data. Where an agent/time field is unavailable, compare team/date/status
  // counts and only supplement missing records, avoiding double counting where possible.
  const norm=v=>String(v??'').trim().toLowerCase().replace(/\s+/g,' ');
@@ -83,12 +131,320 @@ function processRows(rows){
  const key=r=>[clean(r.team),day(r.date),norm(r.status)].join('|');
  const counts=new Map();for(const r of sheetRecords){const k=key(r);counts.set(k,(counts.get(k)||0)+1)}
  const consumed=new Map();
- for(const r of EXTRA_RECORDS){const k=key(r),seen=consumed.get(k)||0;consumed.set(k,seen+1);if(seen<(counts.get(k)||0))continue;apply(r)}
- stats=next;totals=sum;draw();
+ for(const r of EXTRA_RECORDS){const k=key(r),seen=consumed.get(k)||0;consumed.set(k,seen+1);if(seen<(counts.get(k)||0))continue;apply(r);mergedRecords.push(r)}
+ stats=next;totals=sum;agentRecords=mergedRecords;draw();drawAgentReport();drawApr();
 }
+
+// Registered employees. Their roster TL is authoritative for agent activity reporting.
+const AGENT_ROSTER = [
+ ["NE33", "Saif Khalife", "AAMIR"],
+ ["NE61", "Sumith Jaykanthan", "AAMIR"],
+ ["NE73", "Dipika Chawla", "AAMIR"],
+ ["NE74", "Rehan Patel", "AAMIR"],
+ ["NE76", "Suchita Sunil Soni", "AAMIR"],
+ ["NE80", "Piyush Joshi", "AAMIR"],
+ ["NE94", "Parvesh Singh", "AAMIR"],
+ ["NE22", "Pooja Dhandre", "DEEPA"],
+ ["NE62", "Rohit Sharma", "DEEPA"],
+ ["NE63", "Ravi Chini Rathod", "DEEPA"],
+ ["NE65", "Varsha Shukla", "DEEPA"],
+ ["NE79", "Uzair Hussain Noor Mohammed Shaikh", "DEEPA"],
+ ["NE26", "Swapnil Gaikwad", "SALMAN"],
+ ["NE44", "Roshni Chavan", "SALMAN"],
+ ["NE64", "Sayyed Rehan Shafiq", "SALMAN"],
+ ["NE66", "Shraddha Gawai", "SALMAN"],
+ ["NE67", "Shaikh Uzair Riyazuddin", "SALMAN"],
+ ["NE68", "Anshika Ghavri", "SALMAN"],
+ ["NE69", "Mayur Rajput", "SALMAN"],
+ ["NE71", "Nandkishor Panda", "SALMAN"],
+ ["NE77", "Jishan Mohammed Ilyas Ansari", "SALMAN"],
+ ["NE78", "Bilal Ahmed", "SALMAN"],
+ ["NE81", "Khalaf Chafekar", "SALMAN"],
+ ["NE87", "Ahmad Khan", "SALMAN"],
+ ["NE60", "Shrijal Agrawal", "SALMAN"],
+ ["NE140", "Rozi Rizwan Ansari", "SALMAN"],
+ ["NE31", "Arbaaz Shaikh", "SOEF"],
+ ["NE43", "Shubham Joshi", "SOEF"],
+ ["NE19", "Dinesh Aglawe", "SOEF"],
+ ["NE28", "Vaibhav Karhale", "SOEF"],
+ ["NE41", "Eshwar Shetti", "SOEF"],
+ ["NE72", "Farhan Salim Ansari", "SOEF"],
+ ["NE86", "Priyanka Singh", "SOEF"],
+ ["NE91", "Celina Chakre", "SOEF"],
+ ["NE93", "Akash Subhash Bilage", "SOEF"],
+ ["NE118", "Mahadev K", "SOEF"],
+ ["NE132", "Anjali Mishra", "SOEF"],
+ ["NE133", "Kishan Tiwari", "SOEF"],
+ ["NE141", "Dhiraj Satre", "SOEF"],
+ ["NE38", "Pooja Kadam", "SOEF"],
+ ["NE06", "Anurag Tiwari", "SOHAIL"],
+ ["NE34", "Rishav Saha", "SOHAIL"],
+ ["NE35", "Ritubala Dhote", "SOHAIL"],
+ ["NE42", "Nibha Mahto", "SOHAIL"],
+ ["NE70", "Atharuddin Sayyed", "SOHAIL"],
+ ["NE75", "Shaikh Taukib", "SOHAIL"],
+ ["NE92", "Pornima Rajesh Kamble", "SOHAIL"],
+ ["NE121", "Kiran Kaur Raina", "SOHAIL"],
+ ["NE122", "Rimjhim Sahu", "SOHAIL"],
+ ["NE136", "Rahul Rohidas Karande", "SOHAIL"],
+ ["NE138", "Namira Muneer Ahmed shaikh", "SOHAIL"],
+ ["NE139", "Uzaifa Mohd Umar Khan", "SOHAIL"],
+ ["NE142", "Bethisa Mandal", "SOHAIL"],
+ ["NE17", "Sudeshna Behera", "SOHAIL"]
+].map(([id,name,team])=>({id,name,team}));
+function normalizeName(s){return String(s??'').toLowerCase().trim().replace(/\s+/g,' ')}
+function weekNumber(v){const m=String(v??'').trim().match(/^(?:week\s*)?(\d+)$/i);return m?Number(m[1]):null}
+function agentCounts(week){
+ const byId=new Map(AGENT_ROSTER.map(a=>[a.id.toUpperCase(),a]));
+ const byName=new Map(AGENT_ROSTER.map(a=>[normalizeName(a.name),a]));
+ const results=new Map(AGENT_ROSTER.map(a=>[a.id,{...a,vd:0,app:0}]));
+ for(const r of agentRecords){if(weekNumber(r.week)!==week)continue;
+  const id=String(r.id??'').trim().toUpperCase();
+  const agent=byId.get(id)||byName.get(normalizeName(r.agent));
+  if(!agent)continue;
+  const result=results.get(agent.id);
+  if(normalizeName(r.status)==='vc done')result.vd++;
+  if(normalizeName(r.rating)==='booked')result.app++;
+ }
+ return [...results.values()];
+}
+function agentGroups(team,week,metric){const agents=agentCounts(week).filter(a=>team==='TOTAL'||a.team===team);return {inactive:agents.filter(a=>a[metric]===0),active:agents.filter(a=>a[metric]>0)}}
+let selectedActivityMetric='vd';
+function availableWeeks(){
+ const found=new Set([0,1]);
+ for(const r of agentRecords){const w=weekNumber(r.week);if(w!==null)found.add(w)}
+ return [...found].sort((a,b)=>a-b);
+}
+function drawAgentReport(){
+ const teams=['TOTAL','SALMAN','SOEF','DEEPA','AAMIR','SOHAIL'];
+ const weeks=availableWeeks(),metric=selectedActivityMetric;
+ const metricLabel=metric==='vd'?'VD':'App';
+ document.getElementById('agenthead').innerHTML='<tr><th rowspan="2" style="text-align:left">TEAM LEADER</th>'+weeks.map(w=>'<th colspan="2" class="weekgroup">WEEK '+w+'</th>').join('')+'</tr><tr>'+weeks.map(()=>'<th>'+metricLabel+' Inactive</th><th>'+metricLabel+' Active</th>').join('')+'</tr>';
+ const cache=new Map(weeks.map(w=>[w,agentCounts(w)]));
+ document.getElementById('agentrows').innerHTML=teams.map(team=>'<tr><td>'+esc(team)+'</td>'+weeks.map(week=>{const agents=cache.get(week).filter(a=>team==='TOTAL'||a.team===team);return ['inactive','active'].map(kind=>{const count=agents.filter(a=>kind==='inactive'?a[metric]===0:a[metric]>0).length;return '<td class="'+kind+'"><button class="countbtn" type="button" data-team="'+team+'" data-week="'+week+'" data-metric="'+metric+'" title="View '+kind+' agents">'+count+'</button></td>'}).join('')}).join('')+'</tr>').join('');
+ document.getElementById('weeknote').textContent='Showing '+weeks.length+' weeks · Week '+weeks[0]+' to Week '+weeks[weeks.length-1];
+ for(const [key,active] of [['filtervd',metric==='vd'],['filterapp',metric==='app']]){const b=document.getElementById(key);b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active))}
+}
+document.getElementById('filtervd').onclick=()=>{selectedActivityMetric='vd';drawAgentReport()};
+document.getElementById('filterapp').onclick=()=>{selectedActivityMetric='app';drawAgentReport()};
+function openAgentList(team,week,metric){
+ const groups=agentGroups(team,week,metric);
+ const label=metric==='vd'?'VDs':'Apps';
+ document.getElementById('agentmodaltitle').textContent=team+' · Week '+week+' · '+label;
+ document.getElementById('agentmodalnote').textContent='Inactive agents have 0 '+label+'; active agents have 1 or more. Figures are calculated from available records for Week '+week+'.';
+ document.getElementById('inactivehead').textContent='Inactive · '+groups.inactive.length;
+ document.getElementById('activehead').textContent='Active · '+groups.active.length;
+ function render(items){return items.length?items.map(a=>'<div class="agentitem"><div><strong>'+esc(a.name)+'</strong><small>'+esc(a.id)+' · '+esc(a.team)+'</small></div><div class="counts">'+a.vd+' VDs · '+a.app+' Apps<span>Week '+week+'</span></div></div>').join(''):'<div class="agentempty">No agents in this category.</div>'}
+ document.getElementById('inactivelist').innerHTML=render(groups.inactive);
+ document.getElementById('activelist').innerHTML=render(groups.active);
+ document.getElementById('agentmodal').showModal();
+}
+document.getElementById('agentrows').addEventListener('click',e=>{const b=e.target.closest('button[data-team]');if(b)openAgentList(b.dataset.team,Number(b.dataset.week),b.dataset.metric)});
+document.getElementById('closeagents').onclick=()=>document.getElementById('agentmodal').close();
+function switchView(view){for(const id of ['score','agent','apr','hourly','insights']){document.getElementById(id+'view').hidden=view!==id;document.getElementById(id+'tab').classList.toggle('selected',view===id)}if(view==='apr')drawApr();if(view==='hourly')drawHourly();if(view==='insights')drawInsights()}
+document.getElementById('insightstab').onclick=()=>switchView('insights');
+document.getElementById('agenttab').onclick=()=>switchView('agent');
+document.getElementById('scoretab').onclick=()=>switchView('score');
+document.getElementById('aprtab').onclick=()=>switchView('apr');document.getElementById('hourlytab').onclick=()=>switchView('hourly');
+
 async function fetchData(){if(busy)return;busy=true;const status=document.getElementById('status');status.textContent='● REFRESHING…';try{const r=await fetch(APPS_SCRIPT_URL+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const p=await r.json();if(!p.ok)throw Error(p.error||'Apps Script error');processRows(p.data);status.textContent='● LIVE · '+new Date().toLocaleTimeString('en-IN')}catch(e){console.error('Scoreboard refresh:',e);status.textContent='● CONNECTION ERROR · '+e.message}finally{busy=false}}
 function openEditor(){const g=document.getElementById('editgrid');g.innerHTML='<label>TEAM</label>'+LABELS.map(s=>'<label>'+s+'</label>').join('')+names().map(t=>'<label>'+esc(t)+'</label>'+TARGET_KEYS.map(k=>'<input type="number" min="0" step="1" data-team="'+esc(t)+'" data-key="'+k+'" value="'+target(t,k)+'" aria-label="'+esc(t)+' '+k+' target">').join('')).join('');document.getElementById('modal').showModal()}
 document.getElementById('edit').onclick=openEditor;document.getElementById('cancel').onclick=()=>document.getElementById('modal').close();document.getElementById('save').onclick=()=>{const inputs=[...document.querySelectorAll('#editgrid input')];if(inputs.some(i=>i.value===''||!Number.isInteger(Number(i.value))||Number(i.value)<0)){alert('Enter non-negative whole numbers for all targets.');return}for(const i of inputs){targets[i.dataset.team]??={};targets[i.dataset.team][i.dataset.key]=Number(i.value)}try{localStorage.setItem(STORE,JSON.stringify(targets))}catch(e){alert('Browser could not save targets. Check storage permissions.');return}document.getElementById('modal').close();draw()};
-document.getElementById('export').onclick=()=>{const header=['TEAM',...LABELS.flatMap(l=>[l+' Target',l+' Achieved']),'LTD VDs','LTD APPS'],line=(name,d,total)=>[name,...TARGET_KEYS.flatMap(k=>[total?totalTarget(k):target(name,k),d[k]||0]),d.ltdVd||0,d.ltdApp||0];const csv=[header,line('TOTAL',totals,true),...names().map(t=>line(t,stats[t]||empty(),false))].map(a=>a.join(',')).join('\r\n');const u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='sales_scoreboard_targets.csv';a.click();setTimeout(()=>URL.revokeObjectURL(u),500)};
-document.getElementById('subheads').innerHTML=TARGET_KEYS.map(()=>'<th class="subhead">TARGET</th><th class="subhead">ACHIEVED</th>').join('');draw();fetchData();setInterval(()=>{if(!document.hidden)fetchData()},3000);window.addEventListener('focus',fetchData);document.addEventListener('visibilitychange',()=>{if(!document.hidden)fetchData()});
+function downloadCsv(name,rows){const csv=rows.map(row=>row.map(x=>'"'+String(x??'').replace(/"/g,'""')+'"').join(',')).join('\r\n');const u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
+document.getElementById('export').onclick=()=>{if(!document.getElementById('agentview').hidden){const weeks=availableWeeks(),metric=selectedActivityMetric;downloadCsv('agent_activity_'+metric+'.csv',[['Team Leader',...weeks.flatMap(w=>['Week '+w+' Inactive','Week '+w+' Active'])],...['TOTAL','SALMAN','SOEF','DEEPA','AAMIR','SOHAIL'].map(t=>[t,...weeks.flatMap(w=>{const a=agentCounts(w).filter(x=>t==='TOTAL'||x.team===t);return [a.filter(x=>x[metric]===0).length,a.filter(x=>x[metric]>0).length]})])]);return}if(!document.getElementById('aprview').hidden){const w=document.getElementById('aprweek').value,t=document.getElementById('aprteam').value;const rows=[['Agent','Team Leader','Week','Total Calls','Connected','Talk Time','VDs','Apps']];for(const tr of document.querySelectorAll('#aprrows tr'))rows.push([...tr.querySelectorAll('td')].map(x=>x.textContent.trim()));downloadCsv('apr_report_'+t+'_'+w.replace(/ /g,'_')+'.csv',rows);return}
+const header=['TEAM',...LABELS.flatMap(l=>[l+' Target',l+' Achieved']),'LTD VDs','LTD APPS'],line=(name,d,total)=>[name,...TARGET_KEYS.flatMap(k=>[total?totalTarget(k):target(name,k),d[k]||0]),d.ltdVd||0,d.ltdApp||0];const csv=[header,line('TOTAL',totals,true),...names().map(t=>line(t,stats[t]||empty(),false))].map(a=>a.join(',')).join('\r\n');const u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='sales_scoreboard_targets.csv';a.click();setTimeout(()=>URL.revokeObjectURL(u),500)};
+document.getElementById('subheads').innerHTML=TARGET_KEYS.map(()=>'<th class="subhead">TARGET</th><th class="subhead">ACHIEVED</th>').join('');draw();drawAgentReport();fetchData();setInterval(()=>{if(!document.hidden)fetchData()},3000);window.addEventListener('focus',fetchData);document.addEventListener('visibilitychange',()=>{if(!document.hidden)fetchData()});
+
+// APR CSV source is separate from the live sales / VD Google Sheet.
+// CHANGE APR SOURCE HERE. Must return a public CSV or Apps Script JSON {ok:true,data:[headers,...rows]}.
+// Private Drive files require an authenticated server-side Apps Script proxy.
+const APR_SOURCE_URL = 'https://script.google.com/macros/s/AKfycbzU8N6yyOoJZae2yuS7wrehKXjCkyUoMYG3avftoLk7mVpFiK-JYcooaq1N9Eyecx8CrQ/exec';
+const APR_SOURCE_KEY='blueZoneAprSource_v1';
+
+let aprData=[],aprSource=APR_SOURCE_URL,aprBusy=false;
+try{aprSource=localStorage.getItem(APR_SOURCE_KEY)||APR_SOURCE_URL}catch{}
+const rosterById=new Map(AGENT_ROSTER.map(a=>[a.id.toUpperCase(),a]));
+function aprWeekFromDate(d){const start=Date.UTC(2026,9,6),time=Date.parse(d+'T00:00:00Z');return Number.isFinite(time)?1+Math.floor((time-start)/604800000):null}
+function aprDate(v){let s=String(v??'').trim();let m=s.match(/(\d{1,2})[-\/]([A-Za-z]{3})[-\/](\d{4})/);if(m){const months=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];const month=months.indexOf(m[2].toLowerCase());if(month>=0)return `${m[3]}-${String(month+1).padStart(2,'0')}-${m[1].padStart(2,'0')}`;}m=s.match(/(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})/);if(m)return `${m[3]}-${m[2].padStart(2,'0')}-${m[1].padStart(2,'0')}`;m=s.match(/(\d{4})-(\d{2})-(\d{2})/);return m?m[0]:''}
+function aprSeconds(v){const a=String(v??'').trim().split(':').map(Number);return a.length===3&&a.every(Number.isFinite)?a[0]*3600+a[1]*60+a[2]:0}
+function aprDuration(s){s=Math.max(0,Math.round(s));return [Math.floor(s/3600),Math.floor(s/60)%60,s%60].map(v=>String(v).padStart(2,'0')).join(':')}
+function parseAprCSV(input){let rows=[],row=[],field='',quoted=false;input=String(input).replace(/^\uFEFF/,'');for(let i=0;i<input.length;i++){let c=input[i];if(c==='"'){if(quoted&&input[i+1]==='"'){field+='"';i++}else quoted=!quoted}else if(c===','&&!quoted){row.push(field);field=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&input[i+1]==='\n')i++;row.push(field);if(row.some(x=>x.trim()))rows.push(row);row=[];field=''}else field+=c}row.push(field);if(row.some(x=>x.trim()))rows.push(row);return rows}
+function parseAprRows(rows){if(!Array.isArray(rows)||!rows.length)throw Error('Empty APR CSV');const norm=x=>String(x??'').trim().toLowerCase().replace(/\s+/g,' ');const h=rows[0].map(norm);const col=(...keys)=>h.findIndex(x=>keys.includes(x));const ix={week:col('weeks date','week date','week','weeks'),date:col('date','weeks date','week date'),id:col('agent id','emp id','employee id'),name:col('agent name','name'),calls:col('total calls'),connected:col('connected'),talk:col('talk time')};if([ix.id,ix.calls,ix.connected,ix.talk].some(i=>i<0))throw Error('APR columns missing: AGENT ID, TOTAL CALLS, CONNECTED, TALK TIME');let activeWeek=null,output=[];for(const r of rows.slice(1)){const id=String(r[ix.id]??'').trim().toUpperCase();if(!id)continue;const rawWeek=ix.week>=0?String(r[ix.week]??''):'';const match=rawWeek.match(/week\s*(\d+)/i);if(match)activeWeek=Number(match[1]);const date=aprDate((ix.date>=0?r[ix.date]:'')||rawWeek);const week=match?Number(match[1]):(date?aprWeekFromDate(date):activeWeek);if(week===null||week<0)continue;const roster=rosterById.get(id);output.push({id,name:roster?.name||id,team:roster?.team||'UNMAPPED',week,date,calls:Math.max(0,Number(r[ix.calls])||0),connected:Math.max(0,Number(r[ix.connected])||0),talk:aprSeconds(r[ix.talk])})}if(!output.length)throw Error('No valid APR rows found');return output}
+function aprSum(items){return items.reduce((a,r)=>({calls:a.calls+r.calls,connected:a.connected+r.connected,talk:a.talk+r.talk}),{calls:0,connected:0,talk:0})}
+function aprOptions(id,values,allLabel){const el=document.getElementById(id),prior=el.value;el.innerHTML='<option value="ALL">'+allLabel+'</option>'+values.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join('');el.value=[...el.options].some(o=>o.value===prior)?prior:'ALL'}
+function salesForAprAgent(id,week){
+ const agent=rosterById.get(id);if(!agent)return {vd:0,app:0};
+ const norm=x=>String(x??'').trim().toLowerCase().replace(/\s+/g,' ');
+ let vd=0,app=0;
+ for(const r of agentRecords){if(weekNumber(r.week)!==week)continue;
+  const matches=String(r.id??'').trim().toUpperCase()===id || (!r.id && norm(r.agent)===norm(agent.name));
+  if(!matches)continue;
+  if(norm(r.status)==='vc done')vd++;
+  if(norm(r.rating)==='booked')app++;
+ }
+ return {vd,app};
+}
+function drawApr(){
+ const weeks=[...new Set([...aprData.map(x=>x.week),...agentRecords.map(r=>weekNumber(r.week)).filter(x=>Number.isFinite(x))])].sort((a,b)=>a-b);
+ const teams=[...new Set(AGENT_ROSTER.map(x=>x.team))].sort((a,b)=>orderIndex(a)-orderIndex(b));
+ aprOptions('aprteam',teams,'Overall · All teams');aprOptions('aprweek',weeks.map(w=>'Week '+w),'All weeks');
+ const t=document.getElementById('aprteam').value,w=document.getElementById('aprweek').value;
+ const chosenWeeks=w==='ALL'?weeks:[Number(w.replace('Week ',''))];
+ const selected=aprData.filter(x=>rosterById.has(x.id)&&(t==='ALL'||rosterById.get(x.id).team===t)&&chosenWeeks.includes(x.week));
+ const agg=new Map();
+ for(const x of selected){const k=x.id+'|'+x.week;if(!agg.has(k))agg.set(k,{calls:0,connected:0,talk:0});const v=agg.get(k);v.calls+=x.calls;v.connected+=x.connected;v.talk+=x.talk}
+ const values=[];
+ // One row per roster agent. Aggregate all selected weeks into that row.
+ for(const agent of AGENT_ROSTER){
+  if(t!=='ALL'&&agent.team!==t)continue;
+  const combined={calls:0,connected:0,talk:0,vd:0,app:0};
+  for(const week of chosenWeeks){
+   const apr=agg.get(agent.id.toUpperCase()+'|'+week)||{calls:0,connected:0,talk:0};
+   const sales=salesForAprAgent(agent.id.toUpperCase(),week);
+   combined.calls+=apr.calls;combined.connected+=apr.connected;combined.talk+=apr.talk;
+   combined.vd+=sales.vd;combined.app+=sales.app;
+  }
+  values.push({...agent,weekLabel:w==='ALL'?'Overall':w,...combined});
+ }
+ values.sort((a,b)=>orderIndex(a.team)-orderIndex(b.team)||a.name.localeCompare(b.name));
+ const total=values.reduce((a,r)=>({calls:a.calls+r.calls,connected:a.connected+r.connected,talk:a.talk+r.talk,vd:a.vd+r.vd,app:a.app+r.app}),{calls:0,connected:0,talk:0,vd:0,app:0});
+ const cells=x=>'<td class="num">'+x.calls.toLocaleString('en-IN')+'</td><td class="num">'+x.connected.toLocaleString('en-IN')+'</td><td class="num">'+aprDuration(x.talk)+'</td><td class="num">'+x.vd+'</td><td class="num">'+x.app+'</td>';
+ document.getElementById('aprrows').innerHTML=values.map(x=>'<tr><td><b>'+esc(x.name)+'</b></td><td>'+esc(x.team)+'</td><td>'+esc(x.weekLabel)+'</td>'+cells(x)+'</tr>').join('')+'<tr class="apr-total"><td><b>TOTAL</b></td><td>'+esc(t==='ALL'?'ALL TEAMS':t)+'</td><td>'+esc(w==='ALL'?'Overall':w)+'</td>'+cells(total)+'</tr>';
+}
+
+function setAprData(records,status){aprData=records;drawApr();document.getElementById('aprstatus').textContent=status}
+for(const id of ['aprteam','aprweek'])document.getElementById(id).addEventListener('change',drawApr);
+document.getElementById('aprupload').addEventListener('change',async e=>{const file=e.target.files?.[0];if(!file)return;try{const rows=parseAprCSV(await file.text());setAprData(parseAprRows(rows),'Loaded local file: '+file.name+' · '+(rows.length-1)+' CSV rows. Local uploads are not auto-synced.')}catch(err){document.getElementById('aprstatus').textContent='CSV error: '+err.message}});
+async function fetchApr(){
+ if(!aprSource || aprSource.includes('PASTE_YOUR') || aprBusy)return;
+ aprBusy=true;
+ try{
+  const url=new URL(aprSource);
+  if(!['https:','http:'].includes(url.protocol))throw Error('Use HTTPS Apps Script URL');
+  const payload=await new Promise((resolve,reject)=>{
+   const callback='aprFeedCallback_'+Date.now();
+   const script=document.createElement('script');
+   let timer;
+   function clean(){clearTimeout(timer);delete window[callback];script.remove()}
+   window[callback]=p=>{clean();resolve(p)};
+   url.searchParams.set('callback',callback);url.searchParams.set('_ts',Date.now());
+   script.src=url.toString();script.onerror=()=>{clean();reject(Error('APR feed unavailable or not deployed publicly'))};
+   timer=setTimeout(()=>{clean();reject(Error('APR feed timed out'))},25000);
+   document.head.appendChild(script);
+  });
+  if(payload.ok===false)throw Error(payload.error||'APR feed error');
+  const rows=payload.data||payload.rows;
+  if(!rows || rows.length===1){setAprData([],'Connected: no APR CSV files found yet');return}
+  setAprData(parseAprRows(rows),'APR synced · '+new Date().toLocaleTimeString('en-IN')+' · '+(payload.files||0)+' daily files');
+ }catch(err){document.getElementById('aprstatus').textContent='APR source error: '+err.message}
+ finally{aprBusy=false}
+}
+document.getElementById('aprsave').onclick=()=>{aprSource=document.getElementById('aprsource').value.trim();try{localStorage.setItem(APR_SOURCE_KEY,aprSource)}catch{}if(aprSource)fetchApr();else document.getElementById('aprstatus').textContent='URL cleared. Upload a CSV or load sample data.'};document.getElementById('aprsource').value=aprSource;drawApr();if(aprSource)fetchApr();setInterval(()=>{if(!document.hidden&&aprSource)fetchApr()},60000);
+
+// Hourly Performance: use live sales sheet records, never APR CSV data.
+const HOURLY_SLOTS=[8,9,10,11,12,13,14,15,16,17,18,19,20,21,22];
+function hourlyDayKey(d){const p=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const v=Object.fromEntries(p.map(x=>[x.type,x.value]));return `${v.year}-${v.month}-${v.day}`}
+function hourlyShift(day,offset){const [y,m,d]=day.split('-').map(Number);return new Date(Date.UTC(y,m-1,d+offset)).toISOString().slice(0,10)}
+function hourlyTime(v){
+ if(v instanceof Date && !isNaN(v))return Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',hour:'2-digit',hourCycle:'h23'}).format(v));
+ const s=String(v??'').trim();if(!s)return null;
+ let m=s.match(/(?:^|\s)(\d{1,2}):(\d{2})(?::\d{2})?\s*(am|pm)?\s*$/i);
+ if(!m)return null;let h=Number(m[1]);if(m[3]){if(h<1||h>12)return null;h=(h%12)+(m[3].toLowerCase()==='pm'?12:0)}
+ return h>=0&&h<=23&&Number(m[2])<=59?h:null;
+}
+function hourlyLabel(h){const fmt=n=>String(n%12||12).padStart(2,'0')+':00 '+(n<12?'am':'pm');return fmt(h)+' - '+fmt(h+1)}
+function drawHourly(){
+ const tbody=document.getElementById('hourlyrows');if(!tbody)return;
+ const today=hourlyDayKey(new Date()),yesterday=hourlyShift(today,-1),previous=hourlyShift(today,-7);
+ document.getElementById('hourlydates').textContent=`Today ${today}  ·  Yesterday ${yesterday}  ·  Previous week ${previous}  ·  India time`;
+ const team=document.getElementById('hourlyteam').value;
+ const buckets=HOURLY_SLOTS.map(()=>Array.from({length:4},()=>({allocation:0,vd:0})));
+ let excluded=0,undated=0;
+ for(const r of agentRecords){
+  if(team!=='ALL'&&clean(r.team)!==team)continue;
+  const hour=hourlyTime(r.time);if(hour===null||!HOURLY_SLOTS.includes(hour)){excluded++;continue}
+  const d=parseDate(r.date);if(!d){undated++;continue}
+  const day=dateKey(d),isVD=String(r.status??'').trim().toLowerCase()==='vc done';
+  const groups=[day===today,day===yesterday,day===previous,true];
+  groups.forEach((yes,i)=>{if(!yes)return;const v=buckets[hour-8][i];v.allocation++;if(isVD)v.vd++});
+ }
+ const totals=Array.from({length:4},()=>({allocation:0,vd:0}));
+ const cell=(v)=>`<td class="alloc">${v.allocation}</td><td>${v.vd}</td>`;
+ tbody.innerHTML=buckets.map((groups,i)=>{groups.forEach((v,j)=>{totals[j].allocation+=v.allocation;totals[j].vd+=v.vd});return `<tr><td>${hourlyLabel(HOURLY_SLOTS[i])}</td>${groups.map(cell).join('')}</tr>`}).join('')+`<tr class="total"><td>TOTAL</td>${totals.map(cell).join('')}</tr>`;
+ document.getElementById('hourlynote').textContent=`Based on live sales-sheet rows. ${excluded} record(s) without a supported time or outside 08:00–23:00 excluded; ${undated} without a valid date excluded. LTD covers all available dates in the connected sheet, not all historical records outside it.`;
+}
+document.getElementById('hourlyteam').addEventListener('change',drawHourly);
+// Recompute hourly display after each successful sheet refresh and on the next calendar day.
+const oldProcessRows=processRows;
+processRows=function(rows){const result=oldProcessRows(rows);drawHourly();return result};
+setInterval(()=>{if(!document.hidden&&hourlyDayKey(new Date())!==window.__lastHourlyDay){window.__lastHourlyDay=hourlyDayKey(new Date());drawHourly()}},60000);
+const oldExportClick=document.getElementById('export').onclick;
+document.getElementById('export').onclick=function(){
+ if(!document.getElementById('hourlyview').hidden){
+  const header=['Time Slot','Today Allocation','Today VC Done','Yesterday Allocation','Yesterday VC Done','Previous Week Allocation','Previous Week VC Done','LTD Allocation','LTD VC Done'];
+  const rows=[...document.querySelectorAll('#hourlyrows tr')].map(tr=>[...tr.cells].map(td=>td.textContent.trim()));
+  downloadCsv('hourly_performance_'+hourlyDayKey(new Date())+'.csv',[header,...rows]);return;
+ }
+ return oldExportClick.call(this);
+};
+
+// INSIGHTS: dynamically derived from live sales sheet and APR agent-ID mapping.
+const INSIGHT_TEAMS=['SALMAN','SOEF','DEEPA','AAMIR','SOHAIL'];
+const INSIGHT_COLORS=['#f68b53','#f5c84b','#b28cf5','#f47bb0','#4a93f4'];
+function insightWeeks(){return [...new Set(agentRecords.map(r=>weekNumber(r.week)).filter(w=>w!==null))].sort((a,b)=>a-b)}
+function insightSelect(id,items,all){const el=document.getElementById(id),old=el.value;el.innerHTML='<option value="ALL">'+all+'</option>'+items.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');el.value=[...el.options].some(x=>x.value===old)?old:'ALL'}
+function insightScope(){const t=document.getElementById('insightteam').value,w=document.getElementById('insightweeks').value;return {team:t,weeks:w==='ALL'?insightWeeks():[Number(w)]}}
+function drawInsightChart(metric,scope){const svg=document.getElementById(metric+'chart'),legend=document.getElementById(metric+'legend');const weeks=scope.weeks,teams=INSIGHT_TEAMS.filter(t=>scope.team==='ALL'||scope.team===t);const rosterMap=new Map(AGENT_ROSTER.map(a=>[a.id.toUpperCase(),a]));const nameMap=new Map(AGENT_ROSTER.map(a=>[normalizeName(a.name),a]));const counts=new Map();for(const r of agentRecords){const w=weekNumber(r.week);if(!weeks.includes(w))continue;const a=rosterMap.get(String(r.id||'').trim().toUpperCase())||nameMap.get(normalizeName(r.agent));const team=a?.team||clean(r.team);if(!teams.includes(team))continue;const hit=metric==='vd'?normalizeName(r.status)==='vc done':normalizeName(r.rating)==='booked';if(hit){const k=team+'|'+w;counts.set(k,(counts.get(k)||0)+1)}}const values=teams.flatMap(t=>weeks.map(w=>counts.get(t+'|'+w)||0));const max=Math.max(1,...values),ceiling=Math.max(5,Math.ceil(max/5)*5),x=i=>weeks.length===1?325:65+i*525/(weeks.length-1),y=v=>285-v/ceiling*230;let out='';for(let i=0;i<=4;i++){const v=ceiling*i/4,yy=y(v);out+='<line x1="55" x2="620" y1="'+yy+'" y2="'+yy+'" stroke="#e1e8f0" stroke-dasharray="5 5"/><text x="46" y="'+(yy+4)+'" text-anchor="end" fill="#63758a" font-size="13">'+Math.round(v)+'</text>'}weeks.forEach((w,i)=>{out+='<text x="'+x(i)+'" y="315" text-anchor="middle" fill="#53657c" font-size="14">W'+w+'</text>'});teams.forEach(t=>{const color=INSIGHT_COLORS[INSIGHT_TEAMS.indexOf(t)],pts=weeks.map((w,i)=>[x(i),y(counts.get(t+'|'+w)||0),counts.get(t+'|'+w)||0]);if(pts.length>1)out+='<polyline fill="none" stroke="'+color+'" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" points="'+pts.map(p=>p[0]+','+p[1]).join(' ')+'"/>';for(const p of pts)out+='<circle cx="'+p[0]+'" cy="'+p[1]+'" r="5.5" fill="'+color+'" stroke="white" stroke-width="2"><title>'+esc(t)+' · '+p[2]+'</title></circle>'});svg.innerHTML=out||'<text x="325" y="170" text-anchor="middle">No sales records available</text>';legend.innerHTML=teams.map(t=>'<span><i style="background:'+INSIGHT_COLORS[INSIGHT_TEAMS.indexOf(t)]+'"></i>'+esc(t)+'</span>').join('')}
+function drawInsights(){insightSelect('insightteam',INSIGHT_TEAMS,'Overall · All teams');insightSelect('insightweeks',insightWeeks().map(String),'All available weeks');const scope=insightScope();drawInsightChart('vd',scope);drawInsightChart('app',scope);const basis=document.getElementById('insightbasis').value;document.getElementById('pervdhead').textContent=(basis==='calls'?'Calls':'Connected')+' / VD';document.getElementById('perapphead').textContent=(basis==='calls'?'Calls':'Connected')+' / App';const sums=new Map(AGENT_ROSTER.map(a=>[a.id,{...a,calls:0,connected:0,vd:0,app:0}]));for(const r of aprData){const a=sums.get(r.id);if(a&&scope.weeks.includes(r.week)){a.calls+=r.calls;a.connected+=r.connected}}const byName=new Map(AGENT_ROSTER.map(a=>[normalizeName(a.name),a.id]));for(const r of agentRecords){if(!scope.weeks.includes(weekNumber(r.week)))continue;const id=String(r.id||'').trim().toUpperCase()||byName.get(normalizeName(r.agent));const a=sums.get(id);if(!a)continue;if(normalizeName(r.status)==='vc done')a.vd++;if(normalizeName(r.rating)==='booked')a.app++}const agents=[...sums.values()].filter(a=>scope.team==='ALL'||a.team===scope.team).sort((a,b)=>orderIndex(a.team)-orderIndex(b.team)||a.name.localeCompare(b.name));const total={name:'TOTAL',team:scope.team==='ALL'?'ALL TEAMS':scope.team,calls:0,connected:0,vd:0,app:0};agents.forEach(a=>{for(const k of ['calls','connected','vd','app'])total[k]+=a[k]});const fmt=n=>n.toLocaleString('en-IN');const ratio=(a,d)=>d?((basis==='calls'?a.calls:a.connected)/d).toFixed(1):'—';const render=a=>'<tr class="'+(a===total?'total':'')+'"><td>'+esc(a.name)+'</td><td>'+esc(a.team)+'</td><td>'+fmt(a.calls)+'</td><td>'+fmt(a.connected)+'</td><td>'+fmt(a.vd)+'</td><td>'+fmt(a.app)+'</td><td class="insightmetric">'+ratio(a,a.vd)+'</td><td class="insightmetric">'+ratio(a,a.app)+'</td></tr>';document.getElementById('insightrows').innerHTML=agents.map(render).join('')+render(total)}
+for(const id of ['insightteam','insightweeks','insightbasis'])document.getElementById(id).addEventListener('change',drawInsights);
+const insightProcess=processRows;processRows=function(rows){const result=insightProcess(rows);drawInsights();return result};
+const insightSetApr=setAprData;setAprData=function(records,status){insightSetApr(records,status);drawInsights()};
+// Color-coded hourly heatmap, separately scaled for each metric across the displayed table.
+const oldHourlyDraw=drawHourly;drawHourly=function(){oldHourlyDraw();const trs=[...document.querySelectorAll('#hourlyrows tr')].filter(tr=>!tr.classList.contains('total'));for(const colParity of [0,1]){const cells=trs.flatMap(tr=>[...tr.cells].slice(1).filter((_,i)=>i%2===colParity));const max=Math.max(0,...cells.map(c=>Number(c.textContent)||0));for(const c of cells){const v=Number(c.textContent)||0,p=max?v/max:0;c.classList.remove('alloc','heat-zero','heat-low','heat-mid','heat-high','heat-top');c.classList.add(v===0?'heat-zero':p<.25?'heat-low':p<.5?'heat-mid':p<.8?'heat-high':'heat-top')}}};
+const insightExport=document.getElementById('export').onclick;document.getElementById('export').onclick=function(){if(!document.getElementById('insightsview').hidden){const basis=document.getElementById('insightbasis').value;const rows=[['Agent','Team Leader','Total Calls','Connected','VDs','Apps',(basis==='calls'?'Calls':'Connected')+' per VD',(basis==='calls'?'Calls':'Connected')+' per App'],...[...document.querySelectorAll('#insightrows tr')].map(tr=>[...tr.cells].map(c=>c.textContent.trim()))];downloadCsv('insights_agent_efficiency.csv',rows);return}return insightExport.call(this)};
+drawInsights();drawHourly();
+
+// Clickable sortable headers. Sorting applies to current filtered rows only.
+const SORT_STATES={};
+function makeSortable(tableSelector, bodySelector, excludedLast=false){
+ const table=document.querySelector(tableSelector),tbody=document.querySelector(bodySelector);if(!table||!tbody)return;
+ const heads=[...table.querySelectorAll('thead tr:last-child th')];
+ // For grouped agent activity headers, sorting uses the actual visible leaf columns.
+ const isActivity=tableSelector==='.agenttable';
+ const sortableHeads=isActivity?[table.querySelector('thead tr:first-child th'),...heads]:heads;
+ sortableHeads.forEach((th,index)=>{
+  if(!th||th.dataset.sortWired)return;th.dataset.sortWired='1';th.classList.add('sortable');th.tabIndex=0;th.setAttribute('role','button');
+  const run=()=>{const state=SORT_STATES[tableSelector]||{};const dir=state.index===index&&state.dir==='asc'?'desc':'asc';SORT_STATES[tableSelector]={index,dir};applySort(tableSelector,bodySelector,excludedLast);};
+  th.addEventListener('click',run);th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();run()}});
+ });
+ if(SORT_STATES[tableSelector])applySort(tableSelector,bodySelector,excludedLast);
+}
+function applySort(tableSelector,bodySelector,excludedLast){
+ const state=SORT_STATES[tableSelector];if(!state)return;const table=document.querySelector(tableSelector),tbody=document.querySelector(bodySelector);if(!table||!tbody)return;
+ const rows=[...tbody.rows],fixed=excludedLast?rows.pop():null;
+ const value=(tr,i)=>{const cell=tr.cells[i];return cell?cell.textContent.trim():''};
+ const compare=(a,b)=>{const x=value(a,state.index),y=value(b,state.index);const xn=Number(x.replace(/,/g,'')),yn=Number(y.replace(/,/g,''));const numeric=x!==''&&y!==''&&Number.isFinite(xn)&&Number.isFinite(yn);return (numeric?xn-yn:x.localeCompare(y,undefined,{numeric:true,sensitivity:'base'}))*(state.dir==='asc'?1:-1)};
+ rows.sort(compare);tbody.replaceChildren(...rows,...(fixed?[fixed]:[]));
+ table.querySelectorAll('th.sortable').forEach(th=>th.removeAttribute('aria-sort'));
+ const heads=tableSelector==='.agenttable'?[table.querySelector('thead tr:first-child th'),...table.querySelectorAll('thead tr:last-child th')]:[...table.querySelectorAll('thead tr:last-child th')];heads[state.index]?.setAttribute('aria-sort',state.dir==='asc'?'ascending':'descending');
+}
+function heatCell(cell,numerator,denominator){
+ cell.classList.remove('heat-na','heat10');cell.removeAttribute('data-band');
+ if(!denominator||!Number.isFinite(denominator)){cell.classList.add('heat-na');return}
+ const pct=Math.max(0,Math.min(100,100*numerator/denominator));cell.classList.add('heat10');cell.dataset.band=String(Math.min(10,Math.floor(pct/10)));cell.title=pct.toFixed(1)+'%';
+}
+function decorateHourly(){
+ const rows=[...document.querySelectorAll('#hourlyrows tr')];for(const row of rows){if(row.classList.contains('total'))continue;for(let j=0;j<4;j++){const alloc=row.cells[1+j*2],vd=row.cells[2+j*2];if(!alloc||!vd)continue;heatCell(vd,Number(vd.textContent)||0,Number(alloc.textContent)||0);}}
+}
+function decorateInsights(){
+ const rows=[...document.querySelectorAll('#insightrows tr')];for(const row of rows){const calls=Number(row.cells[2]?.textContent.replace(/,/g,''))||0,connected=Number(row.cells[3]?.textContent.replace(/,/g,''))||0,vd=Number(row.cells[4]?.textContent.replace(/,/g,''))||0,apps=Number(row.cells[5]?.textContent.replace(/,/g,''))||0;const basis=document.getElementById('insightbasis').value==='calls'?calls:connected;heatCell(row.cells[6],vd,basis);heatCell(row.cells[7],apps,basis);}
+ makeSortable('.insighttable','#insightrows',true);
+}
+const _renderActivity=drawAgentReport;drawAgentReport=function(){_renderActivity();makeSortable('.agenttable','#agentrows')};
+const _renderInsights=drawInsights;drawInsights=function(){_renderInsights();decorateInsights()};
+const _renderHourly=drawHourly;drawHourly=function(){_renderHourly();decorateHourly()};
+const _renderApr=drawApr;drawApr=function(){_renderApr();makeSortable('.aprtable','#aprrows',true)};
+function decorateHourly(){const rows=[...document.querySelectorAll('#hourlyrows tr')];for(const row of rows){if(row.classList.contains('total'))continue;for(let j=0;j<4;j++){const a=row.cells[1+j*2],v=row.cells[2+j*2];if(a&&v)heatCell(v,Number(v.textContent)||0,Number(a.textContent)||0)}}}
+// Ensure sortable headers and color grid appear even before first refresh.
+drawAgentReport();drawApr();drawHourly();drawInsights();
 </script></body></html>
